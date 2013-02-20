@@ -194,7 +194,7 @@ public class UI extends JFrame {
 		help.setName("help");
 		JMenuItem helpAbout = new JMenuItem("Menu Item About");
 		help.add(helpAbout);
-		help.setName("help-about");
+		helpAbout.setName("help-about");
 		menuBar.add(help);
 		
 		return menuBar;
